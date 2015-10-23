@@ -1,0 +1,18 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 4.0
+apiversion: 2
+description: weixin module
+author: liumingixng
+license: MIT
+copyright: Copyright (c) 2014 by Your Mamashai.com
+
+
+# these should not be edited
+name: tiwechat_android
+moduleid: com.mamashai.tiwechat
+guid: a290bbc3-9e09-48ff-a77b-b4a700e3d4ef
+platform: android
+minsdk: 3.1.1.GA
