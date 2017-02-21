@@ -31,7 +31,7 @@ public class WXEntryActivity extends Activity implements IWXAPIEventHandler {
         
         api.handleIntent(getIntent(), this);
         
-        Log.d("WXEntryActivity", "~~~~~~~~~~~~~~~~~WXEntryActivity~~~~~~~~~~~~~");
+        Log.d("WXEntryActivity", "~~~~~~~~~~~~~~~~~这个是我的修改~~~~~~~~~~~~~");
 	
 	}
 	@Override
