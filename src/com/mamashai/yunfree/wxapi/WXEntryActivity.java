@@ -29,7 +29,8 @@ public class WXEntryActivity extends Activity implements IWXAPIEventHandler {
         
         api = WXAPIFactory.createWXAPI(this, "wxf0f8850c3a525af7", false);
         
-        api.handleIntent(getIntent(), this);
+        api,handleIntent(getIntent(), this);
+        
         
         Log.d("WXEntryActivity", "~~~~~~~~~~~~~~~~~这个是我的修改~~~~~~~~~~~~~");
 	
